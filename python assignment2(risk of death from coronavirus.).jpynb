@@ -1,0 +1,37 @@
+{
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "metadata": {
+  "language_info": {
+   "name": "python",
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   }
+  },
+  "orig_nbformat": 2,
+  "file_extension": ".py",
+  "mimetype": "text/x-python",
+  "name": "python",
+  "npconvert_exporter": "python",
+  "pygments_lexer": "ipython3",
+  "version": 3
+ },
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = \"Are you a cigarette addict older than 75 years old?: yes or no\"\n",
+    "chronic = \"Do you have a severe chronic disease?: yes or no\"\n",
+    "immune = \"Is your immune system too weak?:yes or no\"\n",
+    "if age == yes or chronic == yes or immune == yes:\n",
+    "    print(\"You are in risky group\")\n",
+    "else:\n",
+    "    print(\"You are not in risky group\")"
+   ]
+  }
+ ]
+}
