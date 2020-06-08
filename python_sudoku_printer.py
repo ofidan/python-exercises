@@ -23,14 +23,16 @@ sudoku = [
     [0, 0, 1, 0, 5, 9, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 7, 0, 0]
 ]
-for i in range(9):
-    if i % 3 == 0:
+for i in range(10):
+    if i == 9:
+       print("- " * 15)
+       break
+    elif i % 3 == 0:
         print("- " * 15)
     for j in range(9):
         print(sudoku[i][j], end="  ")
         if (j + 1) == 9:
             print(end="\n")
-        if j % 3 == 2 and j != 8:
+        elif j % 3 == 2 and j != 8:
             print("|", end=" ")
-print("- " * 15)
         
